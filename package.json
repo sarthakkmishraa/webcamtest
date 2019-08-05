@@ -4,6 +4,7 @@
   "description": "WEbcam live!",
   "main": "wcam.js",
   "scripts": {
+    "start":"wcam.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
