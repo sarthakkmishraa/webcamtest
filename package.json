@@ -1,0 +1,24 @@
+{
+  "name": "webcam",
+  "version": "1.0.0",
+  "description": "WEbcam live!",
+  "main": "wcam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavtembulkar/webcamtest.git"
+  },
+  "author": "abhi_temb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavtembulkar/webcamtest/issues"
+  },
+  "homepage": "https://github.com/abhinavtembulkar/webcamtest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "log": "^6.0.0",
+    "socket.io": "^2.2.0"
+  }
+}
