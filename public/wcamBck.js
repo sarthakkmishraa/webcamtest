@@ -3,7 +3,7 @@ var context = canvas.getContext('2d')
 var video = document.getElementById('video')
 console.log('CAMERA')
 
-const socket = io.connect('http://localhost:6000/')
+const socket = io.connect()
 //const socket = io.connect('http://06d3b22c.ngrok.io')
 
 /*socket.on('image',(data)=>{
