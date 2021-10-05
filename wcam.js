@@ -3,7 +3,9 @@ const app = express()
 const server = require('http').createServer(app)
 const io = require('socket.io')(server)
 const LOG = require('log')
+const cors = require('cors')
 
+app.use(cors());
 var log = new LOG('debug')
 var PORT = process.env.PORT || 6000
 app.use(express.static(__dirname+'/public'))
